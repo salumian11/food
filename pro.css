@@ -1,0 +1,51 @@
+
+.bg{background-image: url("bg2.png") ;
+height: 100%;
+position: relative;
+background-position: center;
+background-repeat: none;
+background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Base */
+
+  
+  h1 {
+    color: hsl(0, 0%, 28%);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+  }
+  
+  h1 span {
+    transition: 0.5s ease-out;
+  }
+  h1:hover span:nth-child(1) {
+    margin-right: 5px;
+  }
+  h1:hover span:nth-child(1):after {
+    content: "'";
+  }
+  h1:hover span:nth-child(2) {
+    margin-left: 30px;
+  }
+  h1:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  }
+
+.row img:hover{box-shadow: 0px 0px 5px 5px gray;}
+
+ .card:hover{box-shadow: 0px 0px 5px 5px black;}
